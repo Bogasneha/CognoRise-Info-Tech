@@ -1,0 +1,90 @@
+nav{
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+a{
+    float: left;
+    display: flex;
+    color:hotpink;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+a:hover{
+    background:cyan;
+    color: black;
+}
+body {
+    background-image: url("images/pngtree.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% auto;
+}
+img {
+
+    border-top: 1px;
+    border-bottom: 1px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 100px;
+  }
+  
+  img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+section a .linkedin{
+    float: right;
+    display: flex;
+    color:hotpink;
+    text-align: right;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 50%;
+}
+a .linkedin :hover{
+    background:cyan;
+    color: black;
+    opacity: 0.7;
+}
+section a .email{
+    float: right;
+    display: flex;
+    color:hotpink;
+    text-align: right;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 50%;
+}
+a .email :hover{
+    background:cyan;
+    color: black;
+    opacity: 0.7;
+}
+section a .phno{
+    float: right;
+    display: flex;
+    color:hotpink;
+    text-align: right;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 50%;
+}
+a .phno:hover{
+    background:cyan;
+    color: black;
+    opacity: 0.7;
+}
+.back{
+    color:hotpink;
+    text-align:bottom;
+    text-decoration: none;
+    padding: 10px 10px;
+    float:bottom;
+}
+.back:hover{
+    background:cyan;
+    color: black;
+}

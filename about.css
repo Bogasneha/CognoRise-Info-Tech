@@ -1,0 +1,45 @@
+
+h1{
+    
+    color:rgb(10, 78, 101);
+    text-align: center;
+}
+nav{
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+a{
+    float: left;
+    display: flex;
+    color:hotpink;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+a:hover{
+    background:cyan;
+    color: black;
+}
+main{
+    margin: 25px auto;
+    max-width: 980px;
+    font-family:Arial, sans-serif;
+    font-size: 1.6em;
+    font-feature-settings: "calt";
+    text-align: center;
+}
+body {
+    background-image: url("images/pngtree.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% auto;
+}
+p{
+    text-align:start;
+    color: rgb(127, 38, 172);
+}
+h2{
+    color:rgb(49, 135, 163);
+}
